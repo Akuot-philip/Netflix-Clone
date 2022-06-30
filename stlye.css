@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.sec-1{
+    background-image: url("netflix.jpg");
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-size: cover;
+    height: 640px;
+}
+.container{
+    background-color: rgb(7, 6, 6,0.6);
+    height: 640px;
+}
+.logo{
+    height: 12%;
+    width: 10%;
+    margin-left: 5%;
+    /* margin-top: -100%; */
+}
+.sign{
+    margin-top: 20px;
+    float: right;
+    background-color: red;
+    padding: 10px;
+    margin-right: 40px;
+    width: 8%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;   
+}
+/* button{
+    margin-top: 20px;
+    float: right;
+    background-color: red;
+    padding: 10px;
+    margin-right: 40px;
+    width: 8%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+} */
+.content h1{
+    margin-top: -34%;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.content h5{
+    margin-top: -2%;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.content p{
+    margin-top: -1%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.getstarted{
+    text-align: center;
+}
+.getstarted input{
+    height: 61px;
+    width: 57%;
+    margin-left:-40px;
+    border: none;
+
+
+}
+.get{
+    width: 20%;
+    height: 67px;
+    margin-left: -20%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* signin */
+
+.container-1{
+    background-color: rgba(0, 0, 0, 0.712);
+    /* height: 640px;   */
+    color: white;
+    margin-top: -40%;
+    width: 30%;
+    margin-left: 35%;
+    height: 70%;
+    /* text-align: center; */
+}
+.email{
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 5px;
+    
+}
+input::placeholder{
+    color: white;
+}
+
+
+.password{
+    padding: 15px;
+    background-color: #333333;
+    color: white; 
+    margin-top: 20px;
+    border: none;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 5px;
+
+
+
+}
